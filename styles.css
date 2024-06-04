@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e0f7fa; /* Light sky blue background */
+    color: #333; /* Darker text color for readability */
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #0288d1; /* Darker blue for header */
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px;
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero .btn {
+    background: #ff7043; /* Coral color for buttons */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services {
+    background: #fff;
+    padding: 50px 0;
+    color: #0288d1;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background: #e1f5fe; /* Light sky blue background for service items */
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border: 2px solid #0288d1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    color: #0277bd; /* Slightly darker blue for headings */
+}
+
+.testimonials {
+    background: #0288d1; /* Darker blue for testimonials */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 20px;
+}
+
+.testimonial-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial-item {
+    background: #4fc3f7; /* Light blue for testimonial items */
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #0288d1; /* Darker blue for footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ff7043; /* Coral color for footer links */
+    text-decoration: none;
+}
